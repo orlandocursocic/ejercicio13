@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ejercicio13
 {
-    public class Class1
+    public class RecetaRepository : IRecetaRepository
     {
+        public Receta Create(Receta receta)
+        {
+            return receta;
+        }
     }
 }
